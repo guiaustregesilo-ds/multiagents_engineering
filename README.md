@@ -43,6 +43,18 @@ python 02_raci_matrix.py
 python 03_anti_patterns.py
 ```
 
+## Exemplos de execução
+
+**Matriz RACI + diagnóstico automático** (`02_raci_matrix.py`)
+
+![Saída do 02_raci_matrix.py: tabela da Matriz RACI do time SAI e painel de diagnóstico com avisos de silo de informação](./docs/raci_matrix.svg)
+
+**Detector de anti-padrões** (`03_anti_patterns.py`) — comparação entre um time bem definido e um time com papéis redundantes, agente sobrecarregado e ferramentas duplicadas
+
+![Saída do 03_anti_patterns.py: tabelas dos dois times e painéis coloridos com os anti-padrões detectados (crítico, aviso, dica)](./docs/anti_patterns.svg)
+
+> As imagens são geradas a partir da saída real dos scripts (via `rich`'s `Console.save_svg`) e refletem exatamente o que aparece no terminal ao rodá-los.
+
 ## Conceitos abordados
 
 - Modelagem de responsabilidades com **Matriz RACI** aplicada a agentes de IA
